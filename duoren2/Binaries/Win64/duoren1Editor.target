@@ -10,9 +10,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 26,
-		"PatchVersion": 0,
-		"Changelist": 14830424,
-		"CompatibleChangelist": 0,
+		"PatchVersion": 1,
+		"Changelist": 15228867,
+		"CompatibleChangelist": 14830424,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.26",
@@ -378,6 +378,22 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/Binaries/Win64/UE4Editor-SkeletalMeshReduction.dll",
 			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.pdb",
+			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MLSDK/Binaries/Win64/UE4Editor-MLSDK.dll",
@@ -2460,6 +2476,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MLSDK/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2891,6 +2911,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/SkeletalReduction.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/FMODStudio.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -4280,6 +4304,14 @@
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvClothPROFILE_x64.pdb",
 			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodL.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",

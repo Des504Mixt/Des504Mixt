@@ -1,2 +1,2 @@
-D:\demos\duoren2\Intermediate\Build\Win64\UE4Editor\Development\duoren1\Definitions.duoren1.h
-D:\demos\duoren2\Source\duoren1\duoren1.h
+E:\UE4Project\Des504Mixt\duoren2\Intermediate\Build\Win64\UE4Editor\Development\duoren1\Definitions.duoren1.h
+E:\UE4Project\Des504Mixt\duoren2\Source\duoren1\duoren1.h
