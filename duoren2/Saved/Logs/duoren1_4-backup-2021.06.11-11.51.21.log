@@ -1,0 +1,652 @@
+﻿Log file open, 06/11/21 19:51:09
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: duoren1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.109111
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 3070
+LogInit: Compiled (64-bit): Jun  8 2021 20:38:15
+LogInit: Compiled with Visual C++: 19.28.29336.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -game -PIEVIACONSOLE -Multiprocess -server -log GameUserSettingsINI=C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
+LogInit: Base Directory: D:/UnrealEngine-4.26/UnrealEngine-4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.11-11.51.10:088][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.06.11-11.51.10:088][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.11-11.51.10:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:089][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.11-11.51.10:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:091][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.11-11.51.10:091][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.11-11.51.10:092][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.11-11.51.10:092][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.11-11.51.10:093][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.11-11.51.10:094][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.11-11.51.10:094][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.11-11.51.10:094][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.11-11.51.10:095][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.11-11.51.10:095][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.11-11.51.10:096][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.11-11.51.10:096][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.11-11.51.10:097][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.11-11.51.10:097][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.11-11.51.10:098][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:098][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.11-11.51.10:099][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.11-11.51.10:101][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.11-11.51.10:104][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.11-11.51.10:104][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.11-11.51.10:104][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.11-11.51.10:105][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.11-11.51.10:105][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.11-11.51.10:105][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.11-11.51.10:106][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.11-11.51.10:106][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.11-11.51.10:119][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.11-11.51.10:121][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.11-11.51.10:121][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.06.11-11.51.10:121][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:122][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:122][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:123][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.11-11.51.10:123][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.11-11.51.10:123][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:124][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.11-11.51.10:124][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:124][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.11-11.51.10:125][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.11-11.51.10:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.11-11.51.10:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.11-11.51.10:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.11-11.51.10:126][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.11-11.51.10:126][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.11-11.51.10:127][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.11-11.51.10:127][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.11-11.51.10:127][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.11-11.51.10:128][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.11-11.51.10:128][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.11-11.51.10:128][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.11-11.51.10:129][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.11-11.51.10:129][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.11-11.51.10:129][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.11-11.51.10:131][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.11-11.51.10:132][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.11-11.51.10:133][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:136][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.11-11.51.10:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.11-11.51.10:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.11-11.51.10:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.11-11.51.10:138][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.11-11.51.10:138][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.11-11.51.10:138][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.11-11.51.10:139][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.11-11.51.10:139][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.11-11.51.10:139][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.11-11.51.10:140][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.11-11.51.10:140][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.11-11.51.10:140][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.11-11.51.10:141][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.11-11.51.10:141][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.11-11.51.10:141][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.11-11.51.10:142][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.11-11.51.10:142][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.11-11.51.10:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.11-11.51.10:143][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.11-11.51.10:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.11-11.51.10:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.11-11.51.10:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.11-11.51.10:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.11-11.51.10:146][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:147][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.11-11.51.10:147][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.11-11.51.10:148][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.11-11.51.10:150][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.11-11.51.10:150][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.11-11.51.10:151][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.11-11.51.10:151][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.11-11.51.10:151][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.11-11.51.10:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.11-11.51.10:152][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:153][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.11-11.51.10:153][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.11-11.51.10:153][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.11-11.51.10:154][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.11-11.51.10:154][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.11-11.51.10:154][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.11-11.51.10:155][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.11-11.51.10:155][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.11-11.51.10:156][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.11-11.51.10:156][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.11-11.51.10:156][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.11-11.51.10:157][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.11-11.51.10:157][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.11-11.51.10:157][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.11-11.51.10:158][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.11-11.51.10:158][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.11-11.51.10:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.11-11.51.10:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.11-11.51.10:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.11-11.51.10:161][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.11-11.51.10:161][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.11-11.51.10:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.11-11.51.10:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.11-11.51.10:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.11-11.51.10:163][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.11-11.51.10:163][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.11-11.51.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.11-11.51.10:166][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.11-11.51.10:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.11-11.51.10:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.11-11.51.10:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.11-11.51.10:168][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.11-11.51.10:168][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.11-11.51.10:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.11-11.51.10:170][  0]LogHAL: Display: Platform has ~ 16 GB [17061134336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.11-11.51.10:170][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.11-11.51.10:170][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:170][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.11-11.51.10:171][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.11-11.51.10:171][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:171][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.11-11.51.10:172][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:172][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.11-11.51.10:173][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.11-11.51.10:173][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.11-11.51.10:174][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.11-11.51.10:174][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.11-11.51.10:174][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.11-11.51.10:175][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.11-11.51.10:175][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.11-11.51.10:175][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.11-11.51.10:176][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.11-11.51.10:176][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.11-11.51.10:176][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.11-11.51.10:177][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.11-11.51.10:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.11-11.51.10:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.11-11.51.10:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.11-11.51.10:179][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.11-11.51.10:179][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.11-11.51.10:180][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:182][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.11-11.51.10:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.11-11.51.10:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.11-11.51.10:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.11-11.51.10:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.11-11.51.10:184][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.11-11.51.10:184][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.11-11.51.10:184][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.11-11.51.10:185][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.11-11.51.10:185][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.11-11.51.10:186][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.11-11.51.10:186][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.11-11.51.10:186][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.11-11.51.10:187][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.11-11.51.10:187][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.11-11.51.10:187][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.11-11.51.10:188][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.11-11.51.10:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.11-11.51.10:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.11-11.51.10:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.11-11.51.10:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.11-11.51.10:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.11-11.51.10:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.11-11.51.10:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.11-11.51.10:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.11-11.51.10:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.11-11.51.10:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.11-11.51.10:192][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.11-11.51.10:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.11-11.51.10:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.11-11.51.10:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.11-11.51.10:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.11-11.51.10:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.11-11.51.10:196][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.11-11.51.10:198][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.11-11.51.10:199][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.11-11.51.10:199][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.11-11.51.10:199][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.11-11.51.10:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.11-11.51.10:200][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:200][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.11-11.51.10:201][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.11-11.51.10:201][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.11-11.51.10:202][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.11-11.51.10:202][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.11-11.51.10:202][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.11-11.51.10:203][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.11-11.51.10:203][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.11-11.51.10:203][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.11-11.51.10:204][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.11-11.51.10:204][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.11-11.51.10:205][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.11-11.51.10:205][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.11-11.51.10:205][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.11-11.51.10:206][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.11-11.51.10:206][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.11-11.51.10:206][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.11-11.51.10:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.11-11.51.10:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.11-11.51.10:207][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.11-11.51.10:208][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.11-11.51.10:208][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.11-11.51.10:208][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.11-11.51.10:209][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.11-11.51.10:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.11-11.51.10:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.11-11.51.10:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.11-11.51.10:211][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:211][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.11-11.51.10:212][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.11-11.51.10:214][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Scalability.ini]
+[2021.06.11-11.51.10:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.11-11.51.10:215][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.11-11.51.10:215][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.11-11.51.10:216][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.11-11.51.10:216][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.11-11.51.10:216][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.11-11.51.10:217][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.11-11.51.10:217][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Engine.ini]
+[2021.06.11-11.51.10:218][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nietzstl/Documents/demos/duoren1/Saved/Config/Windows/Editor.ini]
+[2021.06.11-11.51.10:219][  0]LogInit: Computer: DESKTOP-DSK70EK
+[2021.06.11-11.51.10:219][  0]LogInit: User: nietzstl
+[2021.06.11-11.51.10:220][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.06.11-11.51.10:220][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.11-11.51.10:221][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.06.11-11.51.10:221][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.11-11.51.10:221][  0]LogMemory: Process Physical Memory: 126.24 MB used, 126.24 MB peak
+[2021.06.11-11.51.10:222][  0]LogMemory: Process Virtual Memory: 99.38 MB used, 99.38 MB peak
+[2021.06.11-11.51.10:222][  0]LogMemory: Physical Memory: 8313.96 MB used,  7956.81 MB free, 16270.77 MB total
+[2021.06.11-11.51.10:223][  0]LogMemory: Virtual Memory: 134211384.00 MB used,  6340.84 MB free, 134217728.00 MB total
+[2021.06.11-11.51.10:225][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2021.06.11-11.51.10:252][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.11-11.51.10:253][  0]LogInit: Using OS detected language (zh-CN).
+[2021.06.11-11.51.10:254][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.06.11-11.51.10:255][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.06.11-11.51.10:367][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.06.11-11.51.10:367][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.06.11-11.51.10:368][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.06.11-11.51.10:369][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.06.11-11.51.10:369][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.06.11-11.51.10:370][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.06.11-11.51.10:370][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.06.11-11.51.10:371][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.06.11-11.51.10:371][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.06.11-11.51.10:372][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.06.11-11.51.10:372][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.06.11-11.51.10:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.11-11.51.10:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.11-11.51.10:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.11-11.51.10:644][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.11-11.51.10:644][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.11-11.51.10:653][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.11-11.51.10:705][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.06.11-11.51.10:705][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/nietzstl/Documents/demos/duoren1/Intermediate/Shaders/WorkingDirectory/18632/).
+[2021.06.11-11.51.10:706][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nietzstl/AppData/Local/Temp/UnrealShaderWorkingDir/92CE4B5344290FD65EA1389633231BAB/'.
+[2021.06.11-11.51.10:707][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.11-11.51.10:707][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.11-11.51.11:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.11-11.51.11:224][  0]LogDerivedDataCache: Loaded boot cache 0.05s 85MB C:/Users/nietzstl/Documents/demos/duoren1/DerivedDataCache/Boot.ddc.
+[2021.06.11-11.51.11:225][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nietzstl/Documents/demos/duoren1/DerivedDataCache/Boot.ddc
+[2021.06.11-11.51.11:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nietzstl/Documents/demos/duoren1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.11-11.51.11:226][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.11-11.51.11:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.11-11.51.11:227][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.06.11-11.51.11:233][  0]LogDerivedDataCache: Speed tests for ../../../Engine/DerivedDataCache took 0.01 seconds
+[2021.06.11-11.51.11:233][  0]LogDerivedDataCache: Display: Performance to ../../../Engine/DerivedDataCache: Latency=0.01ms. RandomReadSpeed=1638.22MBs, RandomWriteSpeed=177.92MBs. Assigned SpeedClass 'Local'
+[2021.06.11-11.51.11:235][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.06.11-11.51.11:235][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.11-11.51.11:235][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.11-11.51.11:239][  0]LogInit: Using OS detected language (zh-CN).
+[2021.06.11-11.51.11:239][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.06.11-11.51.11:240][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2021.06.11-11.51.11:240][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2021.06.11-11.51.11:252][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.06.11-11.51.11:255][  0]LogAssetRegistry: FAssetRegistry took 0.0016 seconds to start up
+[2021.06.11-11.51.11:411][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.000831 seconds
+[2021.06.11-11.51.11:478][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.11-11.51.11:478][  0]LogInit: Active device profile: [0000013CA927DB00][0000013CA7D959C0 49] Windows
+[2021.06.11-11.51.11:479][  0]LogInit: Profiles: [0000013CA927DB00][0000013CA7D959C0 49] Windows, [0000013CA9249F00][0000013CA7DA3B40 49] WindowsNoEditor, [0000013CA927DE00][0000013CA7DA7CC0 49] WindowsServer, [0000013CA9248C00][0000013CA7DAA180 49] WindowsClient, [0000013CA927CE00][0000013CA7DAE300 49] IOS, [0000013CA924AF00][0000013CA7DB2480 49] iPadAir, [0000013CA927F000][0000013CA7DB6600 49] iPadAir2, [0000013CA91F2B00][0000013CA7DC48C0 49] IPadPro, [0000013CA91F2C00][0000013CA7DBA900 49] iPadAir3, [0000013CA927D200][0000013CA7DCEA80 49] iPadAir4, [0000013CA91F2800][0000013CA8670C00 49] iPadMini2, [0000013CA927F100][0000013CA7D98D40 49] iPadMini3, [0000013CA91F1800][0000013CA8674E80 49] iPadMini4, [0000013CA927EA00][0000013CA8678FC0 49] iPadMini5, [0000013CA922E400][0000013CA8685280 49] iPhone6, [0000013CA922E500][0000013CA86812C0 49] iPodTouch6, [0000013CA9248200][0000013CA868D580 49] iPhone7, [0000013CA9248500][0000013CA86895C0 49] iPodTouch7, [0000013CA922FC00][0000013CA8691740 49] iPhone5S, [0000013CA924B700][0000013CA86958C0 49] iPhone6Plus, [0000013CA922D600][0000013CA8699A40 49] iPhone6S, [0000013CA924BC00][0000013CA869DBC0 49] iPhone6SPlus, [0000013CA922C700][0000013CA86A1D40 49] iPhone7Plus, [0000013CA9249100][0000013CA86A4200 49] iPhoneSE, [0000013CA922F400][0000013CA86A8380 49] iPhone8, [0000013CA924B800][0000013CA86AC500 49] iPhone8Plus, [0000013CA922C400][0000013CA86B0680 49] iPhoneX, [0000013CA924A400][0000013CA86B4800 49] iPhoneXS, [0000013CA922F000][0000013CA86B8980 49] iPhoneXSMax, [0000013CA924A100][0000013CA86BCB00 49] iPhoneXR, [0000013CA922CD00][0000013CA86C0C80 49] iPhone11, [0000013CA924A900][0000013CA867CDC0 49] iPhone11Pro, [0000013CA922F200][0000013CA86C4F00 49] iPhone11ProMax, [0000013CA924B200][0000013CA86C9040 49] iPhoneSE2, [0000013CA922EE00][0000013CA86D11C0 49] iPhone12Mini, [0000013CA9248100][0000013CA86D5340 49] iPhone12, [0000013CA922EC00][0000013CA86D94C0 49] iPhone12Pro, [0000013CA9249E00][0000013CA86DD640 49] iPhone12ProMax, [0000013CA927CA00][0000013CA86E17C0 49] iPadPro105, [0000013CA922D900][0000013CA86E5940 49] iPadPro129, [0000013CA927D300][0000013CA86E9AC0 49] iPadPro97, [0000013CA922CE00][0000013CA86EDC40 49] iPadPro2_129, [0000013CA927D900][0000013CA86F0100 49] iPad5, [0000013CA922DF00][0000013CA86F4280 49] iPad6, [0000013CA927F300][0000013CA86F8400 49] iPad7, [0000013CA9249700][0000013CA86FC580 49] iPad8, [0000013CA927F800][0000013CA8700700 49] iPadPro11, [0000013CA9249500][0000013CA8704880 49] iPadPro2_11, [0000013CA927F400][0000013CA8708A00 49] iPadPro3_129, [0000013CA924AC00][0000013CA870CB80 49] iPadPro4_129, [0000013CA927C400][0000013CA8002D00 49] AppleTV, [0000013CA9248E00][0000013CA86CCE40 49] AppleTV4K, [0000013CA927E600][0000013CA8006F80 49] TVOS, [0000013CA9248F00][0000013CA800B0C0 49] Mac, [0000013CA927CB00][0000013CA800F200 49] MacClient, [0000013CA9249D00][0000013CA8017380 49] MacNoEditor, [0000013CA927FD00][0000013CA801B500 49] MacServer, [0000013CA9249C00][0000013CA801F680 49] Linux, [0000013CA927FA00][0000013CA8023800 49] LinuxAArch64, [0000013CA9249200][0000013CA8027980 49] LinuxNoEditor, [0000013CA927C900][0000013CA802BB00 49] LinuxAArch64NoEditor, [0000013CA9248900][0000013CA802FC80 49] LinuxClient, [0000013CA927EC00][0000013CA8032140 49] LinuxAArch64Client, [0000013CA924BB00][0000013CA80362C0 49] LinuxServer, [0000013CA927E400][0000013CA803A440 49] LinuxAArch64Server, [0000013CA9248A00][0000013CA803E5C0 49] Android, [0000013CA927C100][0000013CA8042740 49] Android_Low, [0000013CA924BE00][0000013CA80468C0 49] Android_Mid, [0000013CA927E700][0000013CA804AA40 49] Android_High, [0000013CA9248B00][0000013CA804EBC0 49] Android_Default, [0000013CA927DD00][0000013CA8052D40 49] Android_Adreno4xx, [0000013CA924A000][0000013CA8012E80 49] Android_Adreno5xx_Low, [0000013CA927D400][0000013CA8056FC0 49] Android_Adreno5xx, [0000013CA9248800][0000013CA805B100 49] Android_Adreno6xx, [0000013CA927EF00][0000013CA805F240 49] Android_Adreno6xx_Vulkan, [0000013CA9249600][0000013CA80673C0 49] Android_Mali_T6xx, [0000013CA927F500][0000013CA806B540 49] Android_Mali_T7xx, [0000013CA924BA00][0000013CA806F6C0 49] Android_Mali_T8xx, [0000013CA927C800][0000013CA8073840 49] Android_Mali_G71, [0000013CA924AB00][0000013CA80779C0 49] Android_Mali_G72, [0000013CA927C300][0000013CA807BB40 49] Android_Mali_G72_Vulkan, [0000013CA924AA00][0000013CA807FCC0 49] Android_Mali_G76, [0000013CA927CD00][0000013CA8082180 49] Android_Mali_G76_Vulkan, [0000013CA924B400][0000013CA8086300 49] Android_Mali_G77, [0000013CA927C500][0000013CA808A480 49] Android_Mali_G77_Vulkan, [0000013CA924AE00][0000013CA808E600 49] Android_Vulkan_SM5, [0000013CA927E300][0000013CA8092780 49] Android_PowerVR_G6xxx, [0000013CA924BF00][0000013CA8096900 49] Android_PowerVR_GT7xxx, [0000013CA91F1E00][0000013CA809AA80 49] Android_PowerVR_GE8xxx, [0000013CA922CF00][0000013CA809EC00 49] Android_PowerVR_GM9xxx, [0000013CA91F0800][0000013CA80A2D80 49] Android_PowerVR_GM9xxx_Vulkan, [0000013CA922C800][0000013CA80A6F00 49] Android_TegraK1, [0000013CA91F0100][0000013CA8063040 49] Android_Unknown_Vulkan, [0000013CA922D500][0000013CA80AB180 49] Lumin, [0000013CA91F2E00][0000013CA80AF2C0 49] Lumin_Desktop, [0000013CA922C500][0000013CA80B7440 49] HoloLens, 
+[2021.06.11-11.51.11:513][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.11-11.51.11:513][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.11-11.51.11:514][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.11-11.51.11:514][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.11-11.51.11:515][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.11-11.51.11:529][  0]LogNetVersion: duoren1 1.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3470667589)
+[2021.06.11-11.51.11:646][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.06.11-11.51.11:856][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.11-11.51.11:860][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.11-11.51.12:029][  0]SourceControl: Source control is disabled
+[2021.06.11-11.51.12:030][  0]SourceControl: Source control is disabled
+[2021.06.11-11.51.12:033][  0]SourceControl: Source control is disabled
+[2021.06.11-11.51.12:040][  0]LogUProjectInfo: Found projects:
+[2021.06.11-11.51.12:136][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.11-11.51.12:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.11-11.51.12:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.11-11.51.12:193][  0]LogOcInput: OculusInput pre-init called
+[2021.06.11-11.51.12:201][  0]LogUObjectArray: 20952 objects as part of root set at end of initial load.
+[2021.06.11-11.51.12:201][  0]LogUObjectAllocator: 5717792 out of 0 bytes used by permanent object pool.
+[2021.06.11-11.51.12:201][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.11-11.51.12:241][  0]LogEngine: Initializing Engine...
+[2021.06.11-11.51.12:243][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.11-11.51.12:253][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.11-11.51.12:253][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.11-11.51.12:254][  0]LogInit: Texture streaming: Disabled
+[2021.06.11-11.51.12:278][  0]LogInit: Display: Game Engine Initialized.
+[2021.06.11-11.51.12:278][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.06.11-11.51.12:309][  0]LogInit: Display: Starting Game.
+[2021.06.11-11.51.12:309][  0]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Player
+[2021.06.11-11.51.12:310][  0]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Player
+[2021.06.11-11.51.12:310][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.06.11-11.51.12:313][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.11-11.51.12:321][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.06.11-11.51.12:409][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.11-11.51.12:410][  0]LogLoad: Game class is 'TestGamemode_C'
+[2021.06.11-11.51.12:412][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.06.11-11.51.12:412][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.06.11-11.51.12:413][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.06.11-11.51.12:413][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.06.11-11.51.12:414][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.11-11.51.12:414][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2021.06.11-11.51.12:416][  0]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 30) at 2021.06.11-19.51.12
+[2021.06.11-11.51.12:416][  0]LogWorld: Bringing up level for play took: 0.001687
+[2021.06.11-11.51.12:417][  0]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	ThirdPersonExampleMap_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0089
+[2021.06.11-11.51.12:417][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+
+[2021.06.11-11.51.12:417][  0]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	ThirdPersonExampleMap_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:002F
+[2021.06.11-11.51.12:418][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+
+[2021.06.11-11.51.12:418][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard'!
+[2021.06.11-11.51.12:419][  0]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	scoreboard_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.scoreboard_4
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard:0093
+[2021.06.11-11.51.12:419][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard
+
+[2021.06.11-11.51.12:420][  0]LogScript: Warning: Attempted to assign to None
+	scoreboard_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.scoreboard_4
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard:00A8
+[2021.06.11-11.51.12:420][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard
+
+[2021.06.11-11.51.12:421][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard'!
+[2021.06.11-11.51.12:421][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard'!
+[2021.06.11-11.51.12:421][  0]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	scoreboard_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.scoreboard_4
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard:0157
+[2021.06.11-11.51.12:422][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard
+
+[2021.06.11-11.51.12:422][  0]LogScript: Warning: Attempted to assign to None
+	scoreboard_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.scoreboard_4
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard:016C
+[2021.06.11-11.51.12:423][  0]LogScript: Warning: Script call stack:
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ReceiveBeginPlay
+	Function /Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard
+
+[2021.06.11-11.51.12:423][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/ThirdPersonCPP/Blueprints/scoreboard.scoreboard_C:ExecuteUbergraph_scoreboard'!
+[2021.06.11-11.51.12:423][  0]LogLoad: Took 0.113591 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap)
+[2021.06.11-11.51.12:431][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.06.11-11.51.12:431][  0]LogLoad: (Engine Initialization) Total time: 3.54 seconds
+[2021.06.11-11.51.12:432][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.11-11.51.12:432][  0]LogInit: First time updating LLM stats...
+[2021.06.11-11.51.13:995][ 91]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49748
+[2021.06.11-11.51.13:995][ 91]LogHandshake: SendConnectChallenge. Timestamp: 1.533333, Cookie: 184121162146094169045110119193108103055108055208141051095000
+[2021.06.11-11.51.14:012][ 92]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49748
+[2021.06.11-11.51.14:012][ 92]LogHandshake: SendChallengeAck. InCookie: 184121162146094169045110119193108103055108055208141051095000
+[2021.06.11-11.51.14:012][ 92]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49748
+[2021.06.11-11.51.14:013][ 92]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.11-11.51.14:013][ 92]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/21 19:51:14, [UNetConnection] RemoteAddr: 127.0.0.1:49748, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.11-11.51.14:013][ 92]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49748, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.11-11.51.14:014][ 92]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49749
+[2021.06.11-11.51.14:014][ 92]LogHandshake: SendConnectChallenge. Timestamp: 1.550000, Cookie: 045159159046245052114170105048237010195102222207214248240142
+[2021.06.11-11.51.14:029][ 93]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2021.06.11-11.51.14:029][ 93]LogNet: Remote platform little endian=1
+[2021.06.11-11.51.14:029][ 93]LogNet: This platform little endian=1
+[2021.06.11-11.51.14:030][ 93]LogNetVersion: duoren1 1.0.0.0, NetCL: 0, EngineNetVer: 16, GameNetVer: 0 (Checksum: 2750100589)
+[2021.06.11-11.51.14:030][ 93]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49749
+[2021.06.11-11.51.14:030][ 93]LogHandshake: SendChallengeAck. InCookie: 045159159046245052114170105048237010195102222207214248240142
+[2021.06.11-11.51.14:031][ 93]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49749
+[2021.06.11-11.51.14:031][ 93]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.11-11.51.14:031][ 93]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 06/11/21 19:51:14, [UNetConnection] RemoteAddr: 127.0.0.1:49749, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.11-11.51.14:032][ 93]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49749, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.11-11.51.14:045][ 94]LogNet: Login request: ?Name=DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53 userId: NULL:DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53 platform: NULL
+[2021.06.11-11.51.14:045][ 94]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2021.06.11-11.51.14:045][ 94]LogNet: Remote platform little endian=1
+[2021.06.11-11.51.14:046][ 94]LogNet: This platform little endian=1
+[2021.06.11-11.51.14:061][ 95]LogNet: Client netspeed is 100000
+[2021.06.11-11.51.14:061][ 95]LogNet: Login request: ?Name=DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11 userId: NULL:DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11 platform: NULL
+[2021.06.11-11.51.14:078][ 96]LogNet: Client netspeed is 100000
+[2021.06.11-11.51.14:162][101]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53?SplitscreenCount=1
+[2021.06.11-11.51.14:162][101]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.06.11-11.51.14:166][101]LogNet: Join succeeded: DESKTOP-DSK70EK-2EDD
+[2021.06.11-11.51.14:196][103]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11?SplitscreenCount=1
+[2021.06.11-11.51.14:196][103]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.06.11-11.51.14:225][103]LogNet: Join succeeded: DESKTOP-DSK70EK-8B15
+[2021.06.11-11.51.20:774][505]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2021.06.11-11.51.20:774][505]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49748, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_0, Owner: TestPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53
+[2021.06.11-11.51.20:776][505]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49748, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_0, Owner: TestPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53, Channels: 12, Time: 2021.06.11-11.51.20
+[2021.06.11-11.51.20:776][505]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49748, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_0, Owner: TestPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-2EDD942842B3670F640C3EAF9B438D53
+[2021.06.11-11.51.20:777][505]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.06.11-11.51.21:719][562]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2021.06.11-11.51.21:719][562]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49749, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_1, Owner: TestPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11
+[2021.06.11-11.51.21:720][562]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49749, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_1, Owner: TestPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11, Channels: 10, Time: 2021.06.11-11.51.21
+[2021.06.11-11.51.21:720][562]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49749, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: TestPlayerController_C_1, Owner: TestPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-8B15E7BA4A5A24A87433D198F0CA4C11
+[2021.06.11-11.51.21:721][562]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
