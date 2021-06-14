@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\demos\\duoren2\\Source\\duoren1\\duoren1.Build.cs",
-		"D:\\demos\\duoren2\\Source\\duoren1.Target.cs",
-		"D:\\demos\\duoren2\\Source\\duoren1Editor.Target.cs",
-		"D:\\demos\\duoren2\\Source\\duoren1Server.Target.cs"
-	],
-	"EngineVersion": "4.26.0"
-}
