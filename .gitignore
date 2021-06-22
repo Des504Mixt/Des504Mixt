@@ -86,3 +86,6 @@ duoren2/Saved/Config/CrashReportClient/UE4CC-Windows-EB0EB1A245CF964B4B5C4A9669D
 duoren2/Saved/Config/CrashReportClient/UE4CC-Windows-C03923584477D45362C54C93D97A7A4A/CrashReportClient.ini
 duoren2/Saved/Logs/duoren1_2.log
 duoren2/Saved/Logs/duoren1.log
+duoren2/Saved/Logs/duoren1.log
+*.ini
+*.log

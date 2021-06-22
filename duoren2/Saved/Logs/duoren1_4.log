@@ -1,10 +1,10 @@
-﻿Log file open, 06/15/21 13:38:29
+﻿Log file open, 06/22/21 13:12:00
 LogInit: LLM is enabled
 LogInit: LLM CsvWriter: off TraceWriter: off
 LogInit: Display: Running engine for game: duoren1
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.264093
+LogStats: Stats thread started at 0.234366
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin MeshPainting
@@ -154,7 +154,7 @@ LogInit: Compiled (64-bit): Dec  1 2020 15:13:26
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.26
-LogInit: Command Line:  /Game/SoulCity/Maps/LV_Soul_Slum_Mobile -game -PIEVIACONSOLE -Multiprocess -server -log GameUserSettingsINI=D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
+LogInit: Command Line:  /Game/Map/MainMenu -game -PIEVIACONSOLE -Multiprocess -server -log GameUserSettingsINI=D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -207,547 +207,433 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.06.15-05.38.30:456][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2021.06.15-05.38.30:456][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.06.15-05.38.30:456][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:457][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.06.15-05.38.30:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:458][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.06.15-05.38.30:458][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.06.15-05.38.30:458][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.06.15-05.38.30:459][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.06.15-05.38.30:459][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.06.15-05.38.30:460][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.06.15-05.38.30:460][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.06.15-05.38.30:461][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.06.15-05.38.30:462][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.06.15-05.38.30:462][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.06.15-05.38.30:463][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.06.15-05.38.30:463][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.06.15-05.38.30:463][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.06.15-05.38.30:464][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.06.15-05.38.30:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:464][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.06.15-05.38.30:465][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.06.15-05.38.30:465][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.06.15-05.38.30:465][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.06.15-05.38.30:466][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.06.15-05.38.30:466][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.06.15-05.38.30:467][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.06.15-05.38.30:467][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.06.15-05.38.30:467][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.06.15-05.38.30:468][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.06.15-05.38.30:470][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.06.15-05.38.30:470][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.06.15-05.38.30:471][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.06.15-05.38.30:471][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2021.06.15-05.38.30:472][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:472][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:472][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:473][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.06.15-05.38.30:473][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.06.15-05.38.30:474][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:474][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.06.15-05.38.30:474][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:475][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.06.15-05.38.30:476][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.06.15-05.38.30:476][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.06.15-05.38.30:476][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.06.15-05.38.30:477][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.06.15-05.38.30:477][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.06.15-05.38.30:478][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.06.15-05.38.30:478][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.06.15-05.38.30:478][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.06.15-05.38.30:479][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.06.15-05.38.30:479][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.06.15-05.38.30:480][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.06.15-05.38.30:480][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.06.15-05.38.30:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.06.15-05.38.30:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.06.15-05.38.30:481][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.06.15-05.38.30:482][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.06.15-05.38.30:482][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.06.15-05.38.30:482][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:483][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.06.15-05.38.30:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.06.15-05.38.30:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.06.15-05.38.30:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.06.15-05.38.30:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.06.15-05.38.30:487][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.06.15-05.38.30:488][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.06.15-05.38.30:488][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.06.15-05.38.30:489][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.06.15-05.38.30:489][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.06.15-05.38.30:489][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.06.15-05.38.30:490][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.06.15-05.38.30:490][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.06.15-05.38.30:491][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.06.15-05.38.30:492][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.06.15-05.38.30:492][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.06.15-05.38.30:493][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.06.15-05.38.30:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.06.15-05.38.30:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.06.15-05.38.30:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.06.15-05.38.30:495][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.06.15-05.38.30:495][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.06.15-05.38.30:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.06.15-05.38.30:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.06.15-05.38.30:496][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.06.15-05.38.30:496][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.06.15-05.38.30:497][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.06.15-05.38.30:497][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.06.15-05.38.30:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.06.15-05.38.30:498][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.06.15-05.38.30:498][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:499][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.06.15-05.38.30:499][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.06.15-05.38.30:500][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.06.15-05.38.30:502][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.06.15-05.38.30:502][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.06.15-05.38.30:503][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.06.15-05.38.30:503][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.06.15-05.38.30:503][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.06.15-05.38.30:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.06.15-05.38.30:505][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:505][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.06.15-05.38.30:505][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.06.15-05.38.30:506][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.06.15-05.38.30:506][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.06.15-05.38.30:506][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.06.15-05.38.30:507][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.06.15-05.38.30:507][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.06.15-05.38.30:507][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.06.15-05.38.30:508][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.06.15-05.38.30:508][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.06.15-05.38.30:509][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.06.15-05.38.30:509][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.06.15-05.38.30:509][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.06.15-05.38.30:510][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.06.15-05.38.30:510][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.06.15-05.38.30:511][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.06.15-05.38.30:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.06.15-05.38.30:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.06.15-05.38.30:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.06.15-05.38.30:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.06.15-05.38.30:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.06.15-05.38.30:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.06.15-05.38.30:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.06.15-05.38.30:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.06.15-05.38.30:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.06.15-05.38.30:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.06.15-05.38.30:515][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.06.15-05.38.30:518][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:519][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.06.15-05.38.30:519][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.06.15-05.38.30:519][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.06.15-05.38.30:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.06.15-05.38.30:521][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.06.15-05.38.30:521][  0]LogInit: Selected Device Profile: [Windows]
-[2021.06.15-05.38.30:521][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.06.15-05.38.30:522][  0]LogHAL: Display: Platform has ~ 16 GB [17061134336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.06.15-05.38.30:522][  0]LogInit: Going up to parent DeviceProfile []
-[2021.06.15-05.38.30:523][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:523][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.06.15-05.38.30:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.06.15-05.38.30:524][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:524][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.06.15-05.38.30:524][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:525][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.06.15-05.38.30:525][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.06.15-05.38.30:525][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.06.15-05.38.30:526][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.06.15-05.38.30:526][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.06.15-05.38.30:526][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.06.15-05.38.30:527][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.06.15-05.38.30:527][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.06.15-05.38.30:528][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.06.15-05.38.30:528][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.06.15-05.38.30:529][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.06.15-05.38.30:529][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.06.15-05.38.30:530][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.06.15-05.38.30:532][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.06.15-05.38.30:534][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.06.15-05.38.30:535][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.06.15-05.38.30:536][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.06.15-05.38.30:536][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.06.15-05.38.30:537][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:537][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.06.15-05.38.30:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.06.15-05.38.30:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.06.15-05.38.30:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.06.15-05.38.30:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.06.15-05.38.30:539][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.06.15-05.38.30:540][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.06.15-05.38.30:540][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.06.15-05.38.30:540][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.06.15-05.38.30:541][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.06.15-05.38.30:541][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.06.15-05.38.30:541][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.06.15-05.38.30:542][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.06.15-05.38.30:542][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.06.15-05.38.30:542][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.06.15-05.38.30:543][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.06.15-05.38.30:543][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.06.15-05.38.30:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.06.15-05.38.30:544][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.06.15-05.38.30:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.06.15-05.38.30:547][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.06.15-05.38.30:547][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.06.15-05.38.30:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.06.15-05.38.30:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.06.15-05.38.30:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.06.15-05.38.30:550][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:550][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.06.15-05.38.30:551][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.06.15-05.38.30:551][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.06.15-05.38.30:551][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.06.15-05.38.30:552][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.06.15-05.38.30:552][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.06.15-05.38.30:552][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.06.15-05.38.30:553][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.06.15-05.38.30:553][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.06.15-05.38.30:554][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:554][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.06.15-05.38.30:554][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.06.15-05.38.30:555][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.06.15-05.38.30:555][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.06.15-05.38.30:555][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.06.15-05.38.30:556][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.06.15-05.38.30:556][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.06.15-05.38.30:557][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.06.15-05.38.30:557][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.06.15-05.38.30:557][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.06.15-05.38.30:558][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.06.15-05.38.30:558][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.06.15-05.38.30:558][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.06.15-05.38.30:559][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.06.15-05.38.30:559][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.06.15-05.38.30:559][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.06.15-05.38.30:560][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.06.15-05.38.30:562][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.06.15-05.38.30:563][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.06.15-05.38.30:563][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.06.15-05.38.30:563][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.06.15-05.38.30:564][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.06.15-05.38.30:564][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.06.15-05.38.30:565][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.06.15-05.38.30:565][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.06.15-05.38.30:566][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.06.15-05.38.30:566][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.06.15-05.38.30:566][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.06.15-05.38.30:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.06.15-05.38.30:567][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
-[2021.06.15-05.38.30:568][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.06.15-05.38.30:569][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.06.15-05.38.30:569][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.06.15-05.38.30:569][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.06.15-05.38.30:571][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.06.15-05.38.30:571][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.06.15-05.38.30:571][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.06.15-05.38.30:572][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
-[2021.06.15-05.38.30:572][  0]LogInit: Computer: DESKTOP-DSK70EK
-[2021.06.15-05.38.30:572][  0]LogInit: User: nietzstl
-[2021.06.15-05.38.30:573][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.06.15-05.38.30:573][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.06.15-05.38.30:574][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.06.15-05.38.30:574][  0]LogMemory: Platform Memory Stats for Windows
-[2021.06.15-05.38.30:574][  0]LogMemory: Process Physical Memory: 129.30 MB used, 129.30 MB peak
-[2021.06.15-05.38.30:575][  0]LogMemory: Process Virtual Memory: 99.97 MB used, 99.97 MB peak
-[2021.06.15-05.38.30:575][  0]LogMemory: Physical Memory: 7798.36 MB used,  8472.41 MB free, 16270.77 MB total
-[2021.06.15-05.38.30:576][  0]LogMemory: Virtual Memory: 134211544.00 MB used,  6180.68 MB free, 134217728.00 MB total
-[2021.06.15-05.38.30:580][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
-[2021.06.15-05.38.30:617][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.06.15-05.38.30:618][  0]LogInit: Using OS detected language (zh-CN).
-[2021.06.15-05.38.30:619][  0]LogInit: Using OS detected locale (zh-CN).
-[2021.06.15-05.38.30:623][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
-[2021.06.15-05.38.30:748][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
-[2021.06.15-05.38.30:748][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
-[2021.06.15-05.38.30:749][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
-[2021.06.15-05.38.30:750][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
-[2021.06.15-05.38.30:750][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
-[2021.06.15-05.38.30:751][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
-[2021.06.15-05.38.30:751][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
-[2021.06.15-05.38.30:752][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
-[2021.06.15-05.38.30:752][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
-[2021.06.15-05.38.30:753][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
-[2021.06.15-05.38.30:753][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
-[2021.06.15-05.38.31:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.06.15-05.38.31:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.06.15-05.38.31:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.06.15-05.38.31:042][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.06.15-05.38.31:042][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.06.15-05.38.31:045][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.06.15-05.38.31:067][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2021.06.15-05.38.31:067][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (D:/GitProjects/504/Des504Mixt/duoren2/Intermediate/Shaders/WorkingDirectory/10348/).
-[2021.06.15-05.38.31:068][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nietzstl/AppData/Local/Temp/UnrealShaderWorkingDir/24CAF5034CB5592E10B87982E56D4D7E/'.
-[2021.06.15-05.38.31:069][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.06.15-05.38.31:069][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.06.15-05.38.31:567][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.06.15-05.38.31:638][  0]LogDerivedDataCache: Loaded boot cache 0.07s 85MB C:/Users/nietzstl/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.06.15-05.38.31:638][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nietzstl/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
-[2021.06.15-05.38.31:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitProjects/504/Des504Mixt/duoren2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.06.15-05.38.31:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.06.15-05.38.31:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitProjects/504/Des504Mixt/duoren2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.06.15-05.38.31:640][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.06.15-05.38.31:652][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.06.15-05.38.31:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.06.15-05.38.31:653][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.06.15-05.38.31:665][  0]LogDerivedDataCache: Speed tests for C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
-[2021.06.15-05.38.31:665][  0]LogDerivedDataCache: Display: Performance to C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=255.42MBs, RandomWriteSpeed=131.25MBs. Assigned SpeedClass 'Local'
-[2021.06.15-05.38.31:666][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.06.15-05.38.31:666][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.06.15-05.38.31:667][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.06.15-05.38.31:668][  0]LogInit: Using OS detected language (zh-CN).
-[2021.06.15-05.38.31:668][  0]LogInit: Using OS detected locale (zh-CN).
-[2021.06.15-05.38.31:669][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
-[2021.06.15-05.38.31:669][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
-[2021.06.15-05.38.31:681][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2021.06.15-05.38.31:685][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2021.06.15-05.38.31:833][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.001058 seconds
-[2021.06.15-05.38.31:897][  0]LogInit: Selected Device Profile: [Windows]
-[2021.06.15-05.38.31:897][  0]LogInit: Active device profile: [0000024D41ADE200][0000024D3E523800 49] Windows
-[2021.06.15-05.38.31:898][  0]LogInit: Profiles: [0000024D41ADE200][0000024D3E523800 49] Windows, [0000024D41A72100][0000024D42761980 49] WindowsNoEditor, [0000024D41ADD600][0000024D42765B00 49] WindowsServer, [0000024D41A71300][0000024D42769C80 49] WindowsClient, [0000024D41ADE000][0000024D4276C140 49] IOS, [0000024D41A72500][0000024D427702C0 49] iPadAir, [0000024D41ADD500][0000024D42774440 49] iPadAir2, [0000024D41A1A100][0000024D42782700 49] IPadPro, [0000024D41A1A200][0000024D42778740 49] iPadAir3, [0000024D41A70D00][0000024D4278C8C0 49] iPadAir4, [0000024D41A1A300][0000024D42790A40 49] iPadMini2, [0000024D41A70800][0000024D42794BC0 49] iPadMini3, [0000024D41A19200][0000024D42756D00 49] iPadMini4, [0000024D41A73700][0000024D42798E40 49] iPadMini5, [0000024D41A51A00][0000024D427A1080 49] iPhone6, [0000024D41A51B00][0000024D4279D0C0 49] iPodTouch6, [0000024D41A1BF00][0000024D427AD380 49] iPhone7, [0000024D41A19F00][0000024D427A93C0 49] iPodTouch7, [0000024D41A53300][0000024D427B1540 49] iPhone5S, [0000024D41A1B100][0000024D427B56C0 49] iPhone6Plus, [0000024D41A51400][0000024D427B9840 49] iPhone6S, [0000024D41A18300][0000024D427BD9C0 49] iPhone6SPlus, [0000024D41A50300][0000024D427C1B40 49] iPhone7Plus, [0000024D41A18400][0000024D427C5CC0 49] iPhoneSE, [0000024D41A52600][0000024D427C8180 49] iPhone8, [0000024D41A19400][0000024D427CC300 49] iPhone8Plus, [0000024D41A51900][0000024D427D0480 49] iPhoneX, [0000024D41A1B900][0000024D427D4600 49] iPhoneXS, [0000024D41A53600][0000024D427D8780 49] iPhoneXSMax, [0000024D41A1B600][0000024D427DC900 49] iPhoneXR, [0000024D41A53E00][0000024D427E0A80 49] iPhone11, [0000024D41A18A00][0000024D427E4C00 49] iPhone11Pro, [0000024D41A52700][0000024D427A4D40 49] iPhone11ProMax, [0000024D41A1AA00][0000024D427E8E80 49] iPhoneSE2, [0000024D41A50500][0000024D427ECFC0 49] iPhone12Mini, [0000024D41A18600][0000024D427F1100 49] iPhone12, [0000024D41A51D00][0000024D427F9280 49] iPhone12Pro, [0000024D41A19800][0000024D427FD400 49] iPhone12ProMax, [0000024D41A50C00][0000024D42801580 49] iPadPro105, [0000024D41ADE500][0000024D42805700 49] iPadPro129, [0000024D41A52F00][0000024D42809880 49] iPadPro97, [0000024D41ADEA00][0000024D4280DA00 49] iPadPro2_129, [0000024D41A52400][0000024D42811B80 49] iPad5, [0000024D41ADF200][0000024D42815D00 49] iPad6, [0000024D41A50D00][0000024D428181C0 49] iPad7, [0000024D41ADE900][0000024D4281C340 49] iPad8, [0000024D41A53C00][0000024D428204C0 49] iPadPro11, [0000024D41ADDF00][0000024D42824640 49] iPadPro2_11, [0000024D41A52300][0000024D428287C0 49] iPadPro3_129, [0000024D41ADC500][0000024D4282C940 49] iPadPro4_129, [0000024D41A51000][0000024D42830AC0 49] AppleTV, [0000024D41ADEB00][0000024D42834C40 49] AppleTV4K, [0000024D41A53A00][0000024D427F4D80 49] TVOS, [0000024D41ADC300][0000024D42838EC0 49] Mac, [0000024D41A53F00][0000024D4283D000 49] MacClient, [0000024D41ADC400][0000024D42841140 49] MacNoEditor, [0000024D41A53500][0000024D428492C0 49] MacServer, [0000024D41ADCA00][0000024D4284D440 49] Linux, [0000024D41A50600][0000024D428515C0 49] LinuxNoEditor, [0000024D41ADCF00][0000024D42855740 49] LinuxAArch64NoEditor, [0000024D41A52C00][0000024D428598C0 49] LinuxClient, [0000024D41ADF100][0000024D4285DA40 49] LinuxAArch64Client, [0000024D41A50400][0000024D42861BC0 49] LinuxServer, [0000024D41ADC700][0000024D42865D40 49] LinuxAArch64Server, [0000024D41A52900][0000024D42868200 49] Android, [0000024D41ADC100][0000024D4286C380 49] Android_Low, [0000024D41A53900][0000024D42870500 49] Android_Mid, [0000024D41ADF000][0000024D42874680 49] Android_High, [0000024D41A52200][0000024D42878800 49] Android_Default, [0000024D41ADC200][0000024D4287C980 49] Android_Adreno4xx, [0000024D41A53000][0000024D42880B00 49] Android_Adreno5xx_Low, [0000024D41ADD100][0000024D42884C80 49] Android_Adreno5xx, [0000024D41A51E00][0000024D42888E00 49] Android_Adreno6xx, [0000024D41ADD200][0000024D42844F40 49] Android_Adreno6xx_Vulkan, [0000024D41A50F00][0000024D4288D080 49] Android_Mali_T6xx, [0000024D41ADD000][0000024D428911C0 49] Android_Mali_T7xx, [0000024D41A50800][0000024D42899340 49] Android_Mali_T8xx, [0000024D41ADCE00][0000024D4289D4C0 49] Android_Mali_G71, [0000024D41A51800][0000024D428A1640 49] Android_Mali_G72, [0000024D41ADC900][0000024D428A57C0 49] Android_Mali_G72_Vulkan, [0000024D41A72800][0000024D428A9940 49] Android_Mali_G76, [0000024D41A1B700][0000024D428ADAC0 49] Android_Mali_G76_Vulkan, [0000024D41A71700][0000024D428B1C40 49] Android_Mali_G77, [0000024D41A1BD00][0000024D428B4100 49] Android_Mali_G77_Vulkan, [0000024D41A73E00][0000024D428B8280 49] Android_Vulkan_SM5, [0000024D41A18500][0000024D428BC400 49] Android_PowerVR_G6xxx, [0000024D41A72300][0000024D428C0580 49] Android_PowerVR_GT7xxx, [0000024D41A18900][0000024D428C4700 49] Android_PowerVR_GE8xxx, [0000024D41A73100][0000024D428C8880 49] Android_PowerVR_GM9xxx, [0000024D41A19700][0000024D428CCA00 49] Android_PowerVR_GM9xxx_Vulkan, [0000024D41A71500][0000024D428D0B80 49] Android_TegraK1, [0000024D41A1BA00][0000024D428D4D00 49] Android_Unknown_Vulkan, [0000024D41A73A00][0000024D428D8E80 49] Lumin, [0000024D41A19D00][0000024D42894FC0 49] Lumin_Desktop, [0000024D41A72F00][0000024D428DD100 49] HoloLens, 
-[2021.06.15-05.38.31:934][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.06.15-05.38.31:934][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.06.15-05.38.31:935][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.06.15-05.38.31:936][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.06.15-05.38.31:936][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.06.15-05.38.31:946][  0]LogNetVersion: duoren1 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 4217610141)
-[2021.06.15-05.38.32:063][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2021.06.15-05.38.32:314][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.06.15-05.38.32:318][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.06.15-05.38.32:354][  0]LogLinker: Warning: Asset 'D:/GitProjects/504/Des504Mixt/duoren2/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.06.15-05.38.32:506][  0]SourceControl: Source control is disabled
-[2021.06.15-05.38.32:507][  0]SourceControl: Source control is disabled
-[2021.06.15-05.38.32:514][  0]SourceControl: Source control is disabled
-[2021.06.15-05.38.32:520][  0]LogUProjectInfo: Found projects:
-[2021.06.15-05.38.32:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.06.15-05.38.32:638][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.06.15-05.38.32:638][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.06.15-05.38.32:684][  0]LogOcInput: OculusInput pre-init called
-[2021.06.15-05.38.32:693][  0]LogUObjectArray: 20948 objects as part of root set at end of initial load.
-[2021.06.15-05.38.32:693][  0]LogUObjectAllocator: 5717040 out of 0 bytes used by permanent object pool.
-[2021.06.15-05.38.32:693][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.06.15-05.38.32:732][  0]LogEngine: Initializing Engine...
-[2021.06.15-05.38.32:733][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.06.15-05.38.32:743][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.06.15-05.38.32:743][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.06.15-05.38.32:744][  0]LogInit: Texture streaming: Disabled
-[2021.06.15-05.38.32:771][  0]LogInit: Display: Game Engine Initialized.
-[2021.06.15-05.38.32:772][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2021.06.15-05.38.32:804][  0]LogInit: Display: Starting Game.
-[2021.06.15-05.38.32:805][  0]LogNet: Browse: /Game/SoulCity/Maps/LV_Soul_Slum_Mobile?Name=Player
-[2021.06.15-05.38.32:806][  0]LogLoad: LoadMap: /Game/SoulCity/Maps/LV_Soul_Slum_Mobile?Name=Player
-[2021.06.15-05.38.32:806][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2021.06.15-05.38.32:813][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.06.15-05.38.32:824][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2021.06.15-05.38.33:012][  0]LogBlueprint: Warning: [AssetLog] D:\GitProjects\504\Des504Mixt\duoren2\Content\SoulCity\Blueprints\FirstPersonCharacter.uasset: [Compiler] 输入操作事件（InputAction Event）为  输入操作Sprint  引用了未知操作 'Sprint’
-[2021.06.15-05.38.33:681][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=3, NumModelVertices=0
-[2021.06.15-05.38.33:681][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=7, NumModelVertices=0
-[2021.06.15-05.38.33:682][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=61, NumModelVertices=0
-[2021.06.15-05.38.33:682][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:683][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:683][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:684][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:684][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:684][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=309, NumModelVertices=0
-[2021.06.15-05.38.33:685][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=331, NumModelVertices=0
-[2021.06.15-05.38.33:685][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=335, NumModelVertices=0
-[2021.06.15-05.38.33:685][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:686][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:686][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:686][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:687][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:687][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:687][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:688][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=557, NumModelVertices=0
-[2021.06.15-05.38.33:688][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=40, NumModelVertices=0
-[2021.06.15-05.38.33:688][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:689][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:689][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:690][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:690][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:690][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:691][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=373, NumModelVertices=0
-[2021.06.15-05.38.33:693][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:694][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:694][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:694][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:695][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:695][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:695][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:696][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:696][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:697][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:697][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:697][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:698][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:698][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:698][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:699][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:699][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:699][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:700][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:700][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:701][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=569, NumModelVertices=0
-[2021.06.15-05.38.33:701][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:701][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:702][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:702][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:702][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:703][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:703][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=584, NumModelVertices=0
-[2021.06.15-05.38.33:704][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:704][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:704][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:705][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:705][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:705][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:706][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:708][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:708][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:708][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:709][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=591, NumModelVertices=0
-[2021.06.15-05.38.33:710][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=392, NumModelVertices=0
-[2021.06.15-05.38.33:710][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=395, NumModelVertices=0
-[2021.06.15-05.38.33:710][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=399, NumModelVertices=0
-[2021.06.15-05.38.33:711][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=399, NumModelVertices=0
-[2021.06.15-05.38.33:711][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=498, NumModelVertices=0
-[2021.06.15-05.38.33:712][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=541, NumModelVertices=0
-[2021.06.15-05.38.33:712][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=545, NumModelVertices=0
-[2021.06.15-05.38.33:712][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_0 has elements that reference missing vertices. MaxVertex=549, NumModelVertices=0
-[2021.06.15-05.38.33:713][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=15, NumModelVertices=0
-[2021.06.15-05.38.33:713][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=23, NumModelVertices=0
-[2021.06.15-05.38.33:713][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=23, NumModelVertices=0
-[2021.06.15-05.38.33:714][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=27, NumModelVertices=0
-[2021.06.15-05.38.33:714][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=31, NumModelVertices=0
-[2021.06.15-05.38.33:714][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=84, NumModelVertices=0
-[2021.06.15-05.38.33:715][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=95, NumModelVertices=0
-[2021.06.15-05.38.33:715][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=95, NumModelVertices=0
-[2021.06.15-05.38.33:715][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=95, NumModelVertices=0
-[2021.06.15-05.38.33:716][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=111, NumModelVertices=0
-[2021.06.15-05.38.33:716][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=111, NumModelVertices=0
-[2021.06.15-05.38.33:717][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=111, NumModelVertices=0
-[2021.06.15-05.38.33:717][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=111, NumModelVertices=0
-[2021.06.15-05.38.33:717][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=167, NumModelVertices=0
-[2021.06.15-05.38.33:718][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:718][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:718][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:719][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:719][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:719][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=225, NumModelVertices=0
-[2021.06.15-05.38.33:720][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=34, NumModelVertices=0
-[2021.06.15-05.38.33:720][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=88, NumModelVertices=0
-[2021.06.15-05.38.33:720][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=91, NumModelVertices=0
-[2021.06.15-05.38.33:721][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=91, NumModelVertices=0
-[2021.06.15-05.38.33:724][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=91, NumModelVertices=0
-[2021.06.15-05.38.33:724][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=91, NumModelVertices=0
-[2021.06.15-05.38.33:724][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=91, NumModelVertices=0
-[2021.06.15-05.38.33:724][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=127, NumModelVertices=0
-[2021.06.15-05.38.33:725][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=132, NumModelVertices=0
-[2021.06.15-05.38.33:725][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=171, NumModelVertices=0
-[2021.06.15-05.38.33:726][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:726][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:727][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:727][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:727][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:728][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:728][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=174, NumModelVertices=0
-[2021.06.15-05.38.33:728][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_1 has elements that reference missing vertices. MaxVertex=11, NumModelVertices=0
-[2021.06.15-05.38.33:729][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_2 has elements that reference missing vertices. MaxVertex=120, NumModelVertices=0
-[2021.06.15-05.38.33:729][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=210, NumModelVertices=0
-[2021.06.15-05.38.33:729][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:730][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:730][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:731][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:731][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:731][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:732][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=254, NumModelVertices=0
-[2021.06.15-05.38.33:732][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=258, NumModelVertices=0
-[2021.06.15-05.38.33:732][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=267, NumModelVertices=0
-[2021.06.15-05.38.33:733][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=273, NumModelVertices=0
-[2021.06.15-05.38.33:733][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=183, NumModelVertices=0
-[2021.06.15-05.38.33:733][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=192, NumModelVertices=0
-[2021.06.15-05.38.33:734][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=202, NumModelVertices=0
-[2021.06.15-05.38.33:734][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=242, NumModelVertices=0
-[2021.06.15-05.38.33:734][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=242, NumModelVertices=0
-[2021.06.15-05.38.33:735][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_3 has elements that reference missing vertices. MaxVertex=246, NumModelVertices=0
-[2021.06.15-05.38.33:735][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_4 has elements that reference missing vertices. MaxVertex=188, NumModelVertices=0
-[2021.06.15-05.38.33:735][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_4 has elements that reference missing vertices. MaxVertex=230, NumModelVertices=0
-[2021.06.15-05.38.33:736][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_4 has elements that reference missing vertices. MaxVertex=263, NumModelVertices=0
-[2021.06.15-05.38.33:736][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_5 has elements that reference missing vertices. MaxVertex=519, NumModelVertices=0
-[2021.06.15-05.38.33:736][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_5 has elements that reference missing vertices. MaxVertex=527, NumModelVertices=0
-[2021.06.15-05.38.33:737][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_5 has elements that reference missing vertices. MaxVertex=531, NumModelVertices=0
-[2021.06.15-05.38.33:739][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_5 has elements that reference missing vertices. MaxVertex=535, NumModelVertices=0
-[2021.06.15-05.38.33:739][  0]LogModelComponent: Model /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile:PersistentLevel.ModelComponent_5 has elements that reference missing vertices. MaxVertex=523, NumModelVertices=0
-[2021.06.15-05.38.33:776][  0]LogAIModule: Creating AISystem for world LV_Soul_Slum_Mobile
-[2021.06.15-05.38.33:777][  0]LogLoad: Game class is 'MyGame_C'
-[2021.06.15-05.38.33:778][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2021.06.15-05.38.33:778][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2021.06.15-05.38.33:778][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2021.06.15-05.38.33:779][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
-[2021.06.15-05.38.33:779][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2021.06.15-05.38.33:780][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2021.06.15-05.38.33:780][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/SoulCity/Maps/SLV_Soul_Slum_Collision) is flushing async loading
-[2021.06.15-05.38.33:780][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
-[2021.06.15-05.38.33:850][  0]LogWorld: Bringing World /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile up for play (max tick rate 30) at 2021.06.15-13.38.33
-[2021.06.15-05.38.33:853][  0]LogWorld: Bringing up level for play took: 0.039696
-[2021.06.15-05.38.33:853][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2021.06.15-05.38.33:856][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2021.06.15-05.38.33:857][  0]LogLoad: Took 1.050797 seconds to LoadMap(/Game/SoulCity/Maps/LV_Soul_Slum_Mobile)
-[2021.06.15-05.38.33:861][  0]LogLoad: (Engine Initialization) Total time: 5.52 seconds
-[2021.06.15-05.38.33:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.06.15-05.38.33:862][  0]LogInit: First time updating LLM stats...
-[2021.06.15-05.38.34:016][  8]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58045
-[2021.06.15-05.38.34:016][  8]LogHandshake: SendConnectChallenge. Timestamp: 0.150000, Cookie: 021058111224199216129039174221079129061178066063181154109051
-[2021.06.15-05.38.34:032][  9]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58045
-[2021.06.15-05.38.34:032][  9]LogHandshake: SendChallengeAck. InCookie: 021058111224199216129039174221079129061178066063181154109051
-[2021.06.15-05.38.34:032][  9]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58045
-[2021.06.15-05.38.34:033][  9]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2021.06.15-05.38.34:034][  9]LogNet: NotifyAcceptedConnection: Name: LV_Soul_Slum_Mobile, TimeStamp: 06/15/21 13:38:34, [UNetConnection] RemoteAddr: 127.0.0.1:58045, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2021.06.15-05.38.34:034][  9]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58045, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2021.06.15-05.38.34:034][  9]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58046
-[2021.06.15-05.38.34:035][  9]LogHandshake: SendConnectChallenge. Timestamp: 0.166667, Cookie: 157233129079187148229108056032044075010094076195225069073015
-[2021.06.15-05.38.34:049][ 10]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile: Accepted
-[2021.06.15-05.38.34:049][ 10]LogNet: Remote platform little endian=1
-[2021.06.15-05.38.34:050][ 10]LogNet: This platform little endian=1
-[2021.06.15-05.38.34:050][ 10]LogNetVersion: duoren1 1.0.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 2116141870)
-[2021.06.15-05.38.34:050][ 10]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58046
-[2021.06.15-05.38.34:051][ 10]LogHandshake: SendChallengeAck. InCookie: 157233129079187148229108056032044075010094076195225069073015
-[2021.06.15-05.38.34:051][ 10]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58046
-[2021.06.15-05.38.34:052][ 10]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2021.06.15-05.38.34:052][ 10]LogNet: NotifyAcceptedConnection: Name: LV_Soul_Slum_Mobile, TimeStamp: 06/15/21 13:38:34, [UNetConnection] RemoteAddr: 127.0.0.1:58046, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2021.06.15-05.38.34:052][ 10]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58046, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2021.06.15-05.38.34:066][ 11]LogNet: Login request: ?Name=DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1 userId: NULL:DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1 platform: NULL
-[2021.06.15-05.38.34:066][ 11]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SoulCity/Maps/LV_Soul_Slum_Mobile.LV_Soul_Slum_Mobile: Accepted
-[2021.06.15-05.38.34:066][ 11]LogNet: Remote platform little endian=1
-[2021.06.15-05.38.34:067][ 11]LogNet: This platform little endian=1
-[2021.06.15-05.38.34:082][ 12]LogNet: Client netspeed is 100000
-[2021.06.15-05.38.34:082][ 12]LogNet: Login request: ?Name=DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A userId: NULL:DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A platform: NULL
-[2021.06.15-05.38.34:099][ 13]LogNet: Client netspeed is 100000
-[2021.06.15-05.38.35:355][ 87]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1?SplitscreenCount=1
-[2021.06.15-05.38.35:356][ 87]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2021.06.15-05.38.35:364][ 87]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2021.06.15-05.38.35:367][ 87]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2021.06.15-05.38.35:367][ 87]LogNet: Join succeeded: DESKTOP-DSK70EK-9EE0
-[2021.06.15-05.38.35:389][ 89]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A?SplitscreenCount=1
-[2021.06.15-05.38.35:390][ 89]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2021.06.15-05.38.35:394][ 89]LogNet: Join succeeded: DESKTOP-DSK70EK-394A
-[2021.06.15-05.38.47:378][829]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2021.06.15-05.38.47:378][829]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58046, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_1, Owner: MyController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A
-[2021.06.15-05.38.47:379][829]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58046, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_1, Owner: MyController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A, Channels: 12, Time: 2021.06.15-05.38.47
-[2021.06.15-05.38.47:380][829]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58046, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_1, Owner: MyController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-394A129F48DC3EE827907C90C9C7835A
-[2021.06.15-05.38.47:381][829]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2021.06.15-05.38.48:876][919]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2021.06.15-05.38.48:876][919]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58045, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_0, Owner: MyController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1
-[2021.06.15-05.38.48:877][919]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58045, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_0, Owner: MyController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1, Channels: 10, Time: 2021.06.15-05.38.48
-[2021.06.15-05.38.48:877][919]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58045, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyController_C_0, Owner: MyController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-9EE0273443C6F4289761E4952F5A87B1
-[2021.06.15-05.38.48:878][919]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.06.22-05.12.01:384][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.06.22-05.12.01:384][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.22-05.12.01:384][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:385][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.22-05.12.01:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:386][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.22-05.12.01:386][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.22-05.12.01:387][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.22-05.12.01:387][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.22-05.12.01:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.22-05.12.01:388][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.22-05.12.01:388][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.22-05.12.01:388][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.22-05.12.01:389][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.22-05.12.01:391][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.22-05.12.01:391][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.22-05.12.01:391][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.22-05.12.01:392][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.22-05.12.01:392][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.22-05.12.01:392][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:393][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.22-05.12.01:394][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.22-05.12.01:395][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.22-05.12.01:395][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.22-05.12.01:396][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.22-05.12.01:396][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.22-05.12.01:396][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.22-05.12.01:397][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.22-05.12.01:397][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.22-05.12.01:397][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.22-05.12.01:398][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.22-05.12.01:398][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.22-05.12.01:398][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.22-05.12.01:399][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.06.22-05.12.01:399][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:400][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:400][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:400][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.22-05.12.01:401][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.22-05.12.01:401][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:401][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.22-05.12.01:402][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:402][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.22-05.12.01:403][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.22-05.12.01:403][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.22-05.12.01:403][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.22-05.12.01:404][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.22-05.12.01:404][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.22-05.12.01:404][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.22-05.12.01:406][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.22-05.12.01:407][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.22-05.12.01:407][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.22-05.12.01:408][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.22-05.12.01:408][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.22-05.12.01:408][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.22-05.12.01:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.22-05.12.01:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.22-05.12.01:409][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.22-05.12.01:410][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.22-05.12.01:410][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.22-05.12.01:411][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:411][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.22-05.12.01:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.22-05.12.01:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.22-05.12.01:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.22-05.12.01:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.22-05.12.01:413][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.22-05.12.01:414][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.22-05.12.01:414][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.22-05.12.01:415][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.22-05.12.01:415][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.22-05.12.01:415][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.22-05.12.01:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.22-05.12.01:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.22-05.12.01:417][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.22-05.12.01:417][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.22-05.12.01:417][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.22-05.12.01:418][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.22-05.12.01:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.22-05.12.01:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.22-05.12.01:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.22-05.12.01:420][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.22-05.12.01:420][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.22-05.12.01:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.22-05.12.01:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.22-05.12.01:422][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.22-05.12.01:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.22-05.12.01:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.22-05.12.01:424][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.22-05.12.01:425][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.22-05.12.01:425][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.22-05.12.01:425][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:426][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.22-05.12.01:426][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.22-05.12.01:426][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.22-05.12.01:427][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.22-05.12.01:427][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.22-05.12.01:427][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.22-05.12.01:428][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.22-05.12.01:428][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.22-05.12.01:428][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.22-05.12.01:429][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:430][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.22-05.12.01:431][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.22-05.12.01:432][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.22-05.12.01:432][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.22-05.12.01:433][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.22-05.12.01:433][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.22-05.12.01:434][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.22-05.12.01:434][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.22-05.12.01:435][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.22-05.12.01:435][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.22-05.12.01:435][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.22-05.12.01:436][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.22-05.12.01:436][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.22-05.12.01:436][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.22-05.12.01:437][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.22-05.12.01:437][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.22-05.12.01:437][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.22-05.12.01:438][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.22-05.12.01:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.22-05.12.01:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.22-05.12.01:440][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.22-05.12.01:441][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.22-05.12.01:441][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.22-05.12.01:441][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.22-05.12.01:442][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.22-05.12.01:442][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.22-05.12.01:442][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.22-05.12.01:443][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:443][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.22-05.12.01:444][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.22-05.12.01:445][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:445][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.22-05.12.01:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.22-05.12.01:446][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.22-05.12.01:446][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.22-05.12.01:447][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.22-05.12.01:447][  0]LogHAL: Display: Platform has ~ 16 GB [17061134336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.22-05.12.01:447][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.22-05.12.01:448][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:448][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.22-05.12.01:448][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.22-05.12.01:449][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:449][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.22-05.12.01:449][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:450][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.22-05.12.01:450][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.22-05.12.01:451][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.22-05.12.01:451][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.22-05.12.01:451][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.22-05.12.01:452][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.22-05.12.01:452][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.22-05.12.01:452][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.22-05.12.01:453][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.22-05.12.01:455][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.22-05.12.01:455][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.22-05.12.01:455][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.22-05.12.01:456][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.22-05.12.01:456][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.22-05.12.01:457][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.22-05.12.01:457][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.22-05.12.01:457][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.22-05.12.01:458][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.22-05.12.01:458][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:458][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.22-05.12.01:459][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.22-05.12.01:459][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.22-05.12.01:459][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.22-05.12.01:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.22-05.12.01:460][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.22-05.12.01:461][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.22-05.12.01:462][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.22-05.12.01:462][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.22-05.12.01:463][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.22-05.12.01:463][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.22-05.12.01:463][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.22-05.12.01:464][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.22-05.12.01:464][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.22-05.12.01:465][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.22-05.12.01:465][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.22-05.12.01:465][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.22-05.12.01:466][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.22-05.12.01:466][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.22-05.12.01:466][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.22-05.12.01:467][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.22-05.12.01:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.22-05.12.01:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.22-05.12.01:468][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.22-05.12.01:470][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.22-05.12.01:470][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.22-05.12.01:471][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.22-05.12.01:471][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.22-05.12.01:471][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.22-05.12.01:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.22-05.12.01:472][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:473][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.22-05.12.01:473][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.22-05.12.01:473][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.22-05.12.01:474][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.22-05.12.01:474][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.22-05.12.01:474][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.22-05.12.01:475][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.22-05.12.01:475][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.22-05.12.01:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.22-05.12.01:476][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:477][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.22-05.12.01:477][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.22-05.12.01:478][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.22-05.12.01:478][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.22-05.12.01:479][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.22-05.12.01:479][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.22-05.12.01:480][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.22-05.12.01:480][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.22-05.12.01:480][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.22-05.12.01:481][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.22-05.12.01:481][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.22-05.12.01:482][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.22-05.12.01:482][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.22-05.12.01:482][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.22-05.12.01:483][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.22-05.12.01:483][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.22-05.12.01:483][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.22-05.12.01:484][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.22-05.12.01:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.22-05.12.01:487][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.22-05.12.01:487][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.22-05.12.01:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.22-05.12.01:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.22-05.12.01:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.22-05.12.01:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.22-05.12.01:490][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Scalability.ini]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.22-05.12.01:491][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.22-05.12.01:492][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.22-05.12.01:492][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.22-05.12.01:492][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.22-05.12.01:493][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitProjects/504/Des504Mixt/duoren2/Saved/Config/Windows/Engine.ini]
+[2021.06.22-05.12.01:493][  0]LogInit: Computer: DESKTOP-DSK70EK
+[2021.06.22-05.12.01:494][  0]LogInit: User: nietzstl
+[2021.06.22-05.12.01:494][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.06.22-05.12.01:494][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.22-05.12.01:495][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.06.22-05.12.01:495][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.22-05.12.01:496][  0]LogMemory: Process Physical Memory: 129.38 MB used, 129.39 MB peak
+[2021.06.22-05.12.01:496][  0]LogMemory: Process Virtual Memory: 112.41 MB used, 112.41 MB peak
+[2021.06.22-05.12.01:496][  0]LogMemory: Physical Memory: 8806.08 MB used,  7464.68 MB free, 16270.77 MB total
+[2021.06.22-05.12.01:497][  0]LogMemory: Virtual Memory: 134210168.00 MB used,  7557.02 MB free, 134217728.00 MB total
+[2021.06.22-05.12.01:499][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2021.06.22-05.12.01:530][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.22-05.12.01:531][  0]LogInit: Using OS detected language (zh-CN).
+[2021.06.22-05.12.01:532][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.06.22-05.12.01:535][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.06.22-05.12.01:634][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.06.22-05.12.01:634][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.06.22-05.12.01:635][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.06.22-05.12.01:635][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.06.22-05.12.01:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.06.22-05.12.01:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.06.22-05.12.01:636][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.06.22-05.12.01:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.06.22-05.12.01:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.06.22-05.12.01:637][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.06.22-05.12.01:638][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.06.22-05.12.01:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.22-05.12.01:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.22-05.12.01:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.22-05.12.01:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.22-05.12.01:933][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.22-05.12.01:937][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.22-05.12.01:958][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.06.22-05.12.01:958][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/GitProjects/504/Des504Mixt/duoren2/Intermediate/Shaders/WorkingDirectory/4944/).
+[2021.06.22-05.12.01:959][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nietzstl/AppData/Local/Temp/UnrealShaderWorkingDir/8AEE9AEE4DDF3C112854B0ABD5174A71/'.
+[2021.06.22-05.12.01:960][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.22-05.12.01:960][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.22-05.12.02:449][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.22-05.12.02:497][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/nietzstl/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.22-05.12.02:497][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nietzstl/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.06.22-05.12.02:498][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitProjects/504/Des504Mixt/duoren2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.22-05.12.02:498][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.22-05.12.02:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitProjects/504/Des504Mixt/duoren2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.22-05.12.02:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.06.22-05.12.02:512][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.22-05.12.02:512][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.22-05.12.02:513][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.06.22-05.12.02:522][  0]LogDerivedDataCache: Speed tests for C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.06.22-05.12.02:522][  0]LogDerivedDataCache: Display: Performance to C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=271.76MBs, RandomWriteSpeed=187.78MBs. Assigned SpeedClass 'Local'
+[2021.06.22-05.12.02:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nietzstl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.22-05.12.02:523][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.22-05.12.02:524][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.22-05.12.02:525][  0]LogInit: Using OS detected language (zh-CN).
+[2021.06.22-05.12.02:525][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.06.22-05.12.02:526][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2021.06.22-05.12.02:526][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2021.06.22-05.12.02:538][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.06.22-05.12.02:541][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.06.22-05.12.02:698][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.000860 seconds
+[2021.06.22-05.12.02:761][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.22-05.12.02:761][  0]LogInit: Active device profile: [0000023E83BB8D00][0000023E835ED840 49] Windows
+[2021.06.22-05.12.02:770][  0]LogInit: Profiles: [0000023E83BB8D00][0000023E835ED840 49] Windows, [0000023E83B69F00][0000023E835FB9C0 49] WindowsNoEditor, [0000023E83BBA300][0000023E835FFB40 49] WindowsServer, [0000023E83B6A000][0000023E83603CC0 49] WindowsClient, [0000023E83BBB200][0000023E83606180 49] IOS, [0000023E83B6AE00][0000023E8360A300 49] iPadAir, [0000023E83BB9300][0000023E8360E480 49] iPadAir2, [0000023E83AFEC00][0000023E8361C740 49] IPadPro, [0000023E83AFED00][0000023E83612780 49] iPadAir3, [0000023E83BBAB00][0000023E83626900 49] iPadAir4, [0000023E83AFE800][0000023E8362AA80 49] iPadMini2, [0000023E83BB9100][0000023E8362EC00 49] iPadMini3, [0000023E83AFD800][0000023E835F0D40 49] iPadMini4, [0000023E83BB9700][0000023E83632E80 49] iPadMini5, [0000023E83B66500][0000023E8363F100 49] iPhone6, [0000023E83B66600][0000023E83637140 49] iPodTouch6, [0000023E83B68600][0000023E83647400 49] iPhone7, [0000023E83B68800][0000023E83643440 49] iPodTouch7, [0000023E83B67E00][0000023E8364B5C0 49] iPhone5S, [0000023E83B68D00][0000023E8364F740 49] iPhone6Plus, [0000023E83B65400][0000023E836538C0 49] iPhone6S, [0000023E83B6BC00][0000023E83657A40 49] iPhone6SPlus, [0000023E83B64300][0000023E8365BBC0 49] iPhone7Plus, [0000023E83B69800][0000023E86E71D40 49] iPhoneSE, [0000023E83B67100][0000023E86E74200 49] iPhone8, [0000023E83B69600][0000023E86E78380 49] iPhone8Plus, [0000023E83B65900][0000023E86E7C500 49] iPhoneX, [0000023E83B68E00][0000023E86E80680 49] iPhoneXS, [0000023E83B66300][0000023E86E84800 49] iPhoneXSMax, [0000023E83B6BF00][0000023E86E88980 49] iPhoneXR, [0000023E83B65C00][0000023E86E8CB00 49] iPhone11, [0000023E83B6B800][0000023E86E90C80 49] iPhone11Pro, [0000023E83B67200][0000023E8363ADC0 49] iPhone11ProMax, [0000023E83B6A400][0000023E86E94F00 49] iPhoneSE2, [0000023E83B64500][0000023E86E99040 49] iPhone12Mini, [0000023E83B69100][0000023E86EA11C0 49] iPhone12, [0000023E83B66800][0000023E86EA5340 49] iPhone12Pro, [0000023E83B68100][0000023E86EA94C0 49] iPhone12ProMax, [0000023E83B64C00][0000023E86EAD640 49] iPadPro105, [0000023E83BBB100][0000023E86EB17C0 49] iPadPro129, [0000023E83B6A200][0000023E86EB5940 49] iPadPro97, [0000023E83BB8B00][0000023E86EB9AC0 49] iPadPro2_129, [0000023E83B64F00][0000023E86EBDC40 49] iPad5, [0000023E83BB8C00][0000023E86EC0100 49] iPad6, [0000023E83B66B00][0000023E86EC4280 49] iPad7, [0000023E83BB9B00][0000023E86EC8400 49] iPad8, [0000023E83B64B00][0000023E86ECC580 49] iPadPro11, [0000023E83BBB600][0000023E86ED0700 49] iPadPro2_11, [0000023E83B64600][0000023E86ED4880 49] iPadPro3_129, [0000023E83BB9200][0000023E86ED8A00 49] iPadPro4_129, [0000023E83B64A00][0000023E86EDCB80 49] AppleTV, [0000023E83BB8100][0000023E86EE0D00 49] AppleTV4K, [0000023E83B65600][0000023E86E9CE40 49] TVOS, [0000023E83BB8800][0000023E86EE4F80 49] Mac, [0000023E83B66E00][0000023E86EE90C0 49] MacClient, [0000023E83BB8600][0000023E86EED200 49] MacNoEditor, [0000023E83B66400][0000023E86EF5380 49] MacServer, [0000023E83BB8E00][0000023E86EF9500 49] Linux, [0000023E83B65F00][0000023E86EFD680 49] LinuxNoEditor, [0000023E83BBA700][0000023E86F01800 49] LinuxAArch64NoEditor, [0000023E83B67300][0000023E86F05980 49] LinuxClient, [0000023E83BB8300][0000023E86F09B00 49] LinuxAArch64Client, [0000023E83B66A00][0000023E86F0DC80 49] LinuxServer, [0000023E83BB8900][0000023E86F10140 49] LinuxAArch64Server, [0000023E83B67C00][0000023E86F142C0 49] Android, [0000023E83BBBD00][0000023E86F18440 49] Android_Low, [0000023E83B67800][0000023E86F1C5C0 49] Android_Mid, [0000023E83BB8700][0000023E86F20740 49] Android_High, [0000023E83B67400][0000023E86F248C0 49] Android_Default, [0000023E83BBB900][0000023E86F28A40 49] Android_Adreno4xx, [0000023E83B64800][0000023E86F2CBC0 49] Android_Adreno5xx_Low, [0000023E83BBA200][0000023E86F30D40 49] Android_Adreno5xx, [0000023E83B66100][0000023E86EF0E80 49] Android_Adreno6xx, [0000023E83BBA600][0000023E86F34FC0 49] Android_Adreno6xx_Vulkan, [0000023E83B66F00][0000023E86F39100 49] Android_Mali_T6xx, [0000023E83BB9F00][0000023E86F3D240 49] Android_Mali_T7xx, [0000023E83B65700][0000023E86F453C0 49] Android_Mali_T8xx, [0000023E83BBA500][0000023E86F49540 49] Android_Mali_G71, [0000023E83B66C00][0000023E86F4D6C0 49] Android_Mali_G72, [0000023E83BB9000][0000023E86F51840 49] Android_Mali_G72_Vulkan, [0000023E83B65E00][0000023E86F559C0 49] Android_Mali_G76, [0000023E83BBA800][0000023E86F59B40 49] Android_Mali_G76_Vulkan, [0000023E83B64200][0000023E86F5DCC0 49] Android_Mali_G77, [0000023E83BB8400][0000023E86F60180 49] Android_Mali_G77_Vulkan, [0000023E83B64E00][0000023E86F64300 49] Android_Vulkan_SM5, [0000023E83BBAE00][0000023E86F68480 49] Android_PowerVR_G6xxx, [0000023E83B66200][0000023E86F6C600 49] Android_PowerVR_GT7xxx, [0000023E83AFDE00][0000023E86F70780 49] Android_PowerVR_GE8xxx, [0000023E83B6BD00][0000023E86F74900 49] Android_PowerVR_GM9xxx, [0000023E83AFC600][0000023E86F78A80 49] Android_PowerVR_GM9xxx_Vulkan, [0000023E83B68700][0000023E86F7CC00 49] Android_TegraK1, [0000023E83AFDA00][0000023E86F80D80 49] Android_Unknown_Vulkan, [0000023E83B69400][0000023E86F84F00 49] Lumin, [0000023E83AFD700][0000023E86F41040 49] Lumin_Desktop, [0000023E83B69000][0000023E86F89180 49] HoloLens, 
+[2021.06.22-05.12.02:788][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.22-05.12.02:789][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.22-05.12.02:789][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.22-05.12.02:798][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.22-05.12.02:800][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.22-05.12.02:810][  0]LogNetVersion: duoren1 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 4217610141)
+[2021.06.22-05.12.02:922][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.06.22-05.12.03:159][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.22-05.12.03:163][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.22-05.12.03:375][  0]SourceControl: Source control is disabled
+[2021.06.22-05.12.03:376][  0]SourceControl: Source control is disabled
+[2021.06.22-05.12.03:384][  0]SourceControl: Source control is disabled
+[2021.06.22-05.12.03:390][  0]LogUProjectInfo: Found projects:
+[2021.06.22-05.12.03:529][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.22-05.12.03:533][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.22-05.12.03:533][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.22-05.12.03:557][  0]LogOcInput: OculusInput pre-init called
+[2021.06.22-05.12.03:564][  0]LogUObjectArray: 20948 objects as part of root set at end of initial load.
+[2021.06.22-05.12.03:564][  0]LogUObjectAllocator: 5717040 out of 0 bytes used by permanent object pool.
+[2021.06.22-05.12.03:565][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.22-05.12.03:602][  0]LogEngine: Initializing Engine...
+[2021.06.22-05.12.03:603][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.22-05.12.03:614][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.22-05.12.03:614][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.22-05.12.03:615][  0]LogInit: Texture streaming: Disabled
+[2021.06.22-05.12.03:640][  0]LogInit: Display: Game Engine Initialized.
+[2021.06.22-05.12.03:640][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.06.22-05.12.03:674][  0]LogInit: Display: Starting Game.
+[2021.06.22-05.12.03:674][  0]LogNet: Browse: /Game/Map/MainMenu?Name=Player
+[2021.06.22-05.12.03:676][  0]LogLoad: LoadMap: /Game/Map/MainMenu?Name=Player
+[2021.06.22-05.12.03:676][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.06.22-05.12.03:679][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.22-05.12.03:690][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.06.22-05.12.03:737][  0]LogBlueprint: Warning: [AssetLog] D:\GitProjects\504\Des504Mixt\duoren2\Content\BluePrint\Blueprints\MainClasses\MixtPlayerController.uasset: [Compiler] 输入轴事件（Input Axis Event）为  输入轴Turn  引用了未知轴 'Turn’
+[2021.06.22-05.12.03:739][  0]LogBlueprint: Warning: [AssetLog] D:\GitProjects\504\Des504Mixt\duoren2\Content\BluePrint\Blueprints\MainClasses\MixtPlayerController.uasset: [Compiler] 输入轴事件（Input Axis Event）为  输入轴LookUp  引用了未知轴 'LookUp’
+[2021.06.22-05.12.03:765][  0]LogAIModule: Creating AISystem for world MainMenu
+[2021.06.22-05.12.03:766][  0]LogLoad: Game class is 'MixtGameMode_C'
+[2021.06.22-05.12.03:766][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.06.22-05.12.03:767][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.06.22-05.12.03:768][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.06.22-05.12.03:768][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.06.22-05.12.03:769][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.22-05.12.03:769][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2021.06.22-05.12.03:770][  0]LogWorld: Bringing World /Game/Map/MainMenu.MainMenu up for play (max tick rate 30) at 2021.06.22-13.12.03
+[2021.06.22-05.12.03:770][  0]LogWorld: Bringing up level for play took: 0.000531
+[2021.06.22-05.12.03:771][  0]LogLoad: Took 0.094818 seconds to LoadMap(/Game/Map/MainMenu)
+[2021.06.22-05.12.03:779][  0]LogLoad: (Engine Initialization) Total time: 4.46 seconds
+[2021.06.22-05.12.03:779][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.22-05.12.03:780][  0]LogInit: First time updating LLM stats...
+[2021.06.22-05.12.04:898][ 65]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64023
+[2021.06.22-05.12.04:898][ 65]LogHandshake: SendConnectChallenge. Timestamp: 1.100000, Cookie: 050139124167105063239116172169182141061219233124153228243119
+[2021.06.22-05.12.04:899][ 65]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64022
+[2021.06.22-05.12.04:899][ 65]LogHandshake: SendConnectChallenge. Timestamp: 1.100000, Cookie: 169047112250135136154079120089210190186136183028172156157129
+[2021.06.22-05.12.04:915][ 66]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64023
+[2021.06.22-05.12.04:915][ 66]LogHandshake: SendChallengeAck. InCookie: 050139124167105063239116172169182141061219233124153228243119
+[2021.06.22-05.12.04:916][ 66]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64023
+[2021.06.22-05.12.04:916][ 66]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.22-05.12.04:916][ 66]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/21 13:12:04, [UNetConnection] RemoteAddr: 127.0.0.1:64023, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.04:917][ 66]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64023, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.04:917][ 66]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64022
+[2021.06.22-05.12.04:918][ 66]LogHandshake: SendChallengeAck. InCookie: 169047112250135136154079120089210190186136183028172156157129
+[2021.06.22-05.12.04:918][ 66]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64022
+[2021.06.22-05.12.04:918][ 66]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.22-05.12.04:919][ 66]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/21 13:12:04, [UNetConnection] RemoteAddr: 127.0.0.1:64022, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.04:919][ 66]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64022, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.04:932][ 67]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Map/MainMenu.MainMenu: Accepted
+[2021.06.22-05.12.04:932][ 67]LogNet: Remote platform little endian=1
+[2021.06.22-05.12.04:932][ 67]LogNet: This platform little endian=1
+[2021.06.22-05.12.04:933][ 67]LogNetVersion: duoren1 1.0.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 2116141870)
+[2021.06.22-05.12.04:933][ 67]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Map/MainMenu.MainMenu: Accepted
+[2021.06.22-05.12.04:933][ 67]LogNet: Remote platform little endian=1
+[2021.06.22-05.12.04:934][ 67]LogNet: This platform little endian=1
+[2021.06.22-05.12.04:949][ 68]LogNet: Login request: ?Name=DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577 userId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577 platform: NULL
+[2021.06.22-05.12.04:949][ 68]LogNet: Login request: ?Name=DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD userId: NULL:DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD platform: NULL
+[2021.06.22-05.12.04:966][ 69]LogNet: Client netspeed is 100000
+[2021.06.22-05.12.04:966][ 69]LogNet: Client netspeed is 100000
+[2021.06.22-05.12.05:017][ 72]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD?SplitscreenCount=1
+[2021.06.22-05.12.05:017][ 72]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.06.22-05.12.05:018][ 72]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.06.22-05.12.05:019][ 72]LogNet: Join succeeded: DESKTOP-DSK70EK-75A1
+[2021.06.22-05.12.05:020][ 72]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577?SplitscreenCount=1
+[2021.06.22-05.12.05:021][ 72]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.06.22-05.12.05:021][ 72]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.06.22-05.12.05:021][ 72]LogNet: Join succeeded: DESKTOP-DSK70EK-1CA3
+[2021.06.22-05.12.06:852][180]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	MainMenu_C /Game/Map/MainMenu.MainMenu:PersistentLevel.MainMenu_C_5
+	Function /Game/Map/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0070
+[2021.06.22-05.12.06:853][180]LogScript: Warning: Script call stack:
+	Function /Game/Map/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+
+[2021.06.22-05.12.09:350][327]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2021.06.22-05.12.09:350][327]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64023, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_1, Owner: MixtPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577
+[2021.06.22-05.12.09:351][327]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64023, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_1, Owner: MixtPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577, Channels: 11, Time: 2021.06.22-05.12.09
+[2021.06.22-05.12.09:352][327]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64023, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_1, Owner: MixtPlayerController_C_1, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577
+[2021.06.22-05.12.09:352][327]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.06.22-05.12.10:367][387]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.4:64025
+[2021.06.22-05.12.10:367][387]LogHandshake: SendConnectChallenge. Timestamp: 6.466666, Cookie: 057092170112183226012149200148146236226130073066045095114011
+[2021.06.22-05.12.10:384][388]LogNet: NotifyAcceptingConnection accepted from: 192.168.1.4:64025
+[2021.06.22-05.12.10:384][388]LogHandshake: SendChallengeAck. InCookie: 057092170112183226012149200148146236226130073066045095114011
+[2021.06.22-05.12.10:384][388]LogNet: Server accepting post-challenge connection from: 192.168.1.4:64025
+[2021.06.22-05.12.10:385][388]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.06.22-05.12.10:385][388]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 06/22/21 13:12:10, [UNetConnection] RemoteAddr: 192.168.1.4:64025, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.10:385][388]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.4:64025, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.06.22-05.12.10:401][389]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Map/MainMenu.MainMenu: Accepted
+[2021.06.22-05.12.10:401][389]LogNet: Remote platform little endian=1
+[2021.06.22-05.12.10:401][389]LogNet: This platform little endian=1
+[2021.06.22-05.12.10:418][390]LogNet: Login request: ?Name=DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577 userId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577 platform: NULL
+[2021.06.22-05.12.10:434][391]LogNet: Client netspeed is 100000
+[2021.06.22-05.12.10:518][396]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577?SplitscreenCount=1
+[2021.06.22-05.12.10:518][396]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.06.22-05.12.10:519][396]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.06.22-05.12.10:520][396]LogNet: Join succeeded: DESKTOP-DSK70EK-1CA3
+[2021.06.22-05.12.12:914][537]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2021.06.22-05.12.12:914][537]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64022, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_0, Owner: MixtPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD
+[2021.06.22-05.12.12:916][537]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64022, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_0, Owner: MixtPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD, Channels: 11, Time: 2021.06.22-05.12.12
+[2021.06.22-05.12.12:916][537]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64022, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_0, Owner: MixtPlayerController_C_0, UniqueId: NULL:DESKTOP-DSK70EK-75A112164A3591BECC36B7A69F2815AD
+[2021.06.22-05.12.12:918][537]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2021.06.22-05.12.14:902][654]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2021.06.22-05.12.14:902][654]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.4:64025, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_2, Owner: MixtPlayerController_C_2, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577
+[2021.06.22-05.12.14:903][654]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.4:64025, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_2, Owner: MixtPlayerController_C_2, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577, Channels: 9, Time: 2021.06.22-05.12.14
+[2021.06.22-05.12.14:903][654]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.4:64025, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MixtPlayerController_C_2, Owner: MixtPlayerController_C_2, UniqueId: NULL:DESKTOP-DSK70EK-1CA350934446F9BBA43486B43211E577
+[2021.06.22-05.12.14:904][654]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
