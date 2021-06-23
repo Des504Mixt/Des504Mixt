@@ -96,3 +96,6 @@ duoren2/Saved/Temp/Win64/Engine/Plugins/Runtime/PhysXVehicles/Config/BasePhysXVe
 duoren2/Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log
 *.log
 **/logs
+duoren2/Intermediate/CachedAssetRegistry.bin
+!duoren2/Saved/Config/Windows/Engine.ini
+!duoren2/Saved/Config/Windows/EditorPerProjectUserSettings.ini
