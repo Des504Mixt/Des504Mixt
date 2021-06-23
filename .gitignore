@@ -89,3 +89,10 @@ duoren2/Saved/Logs/duoren1.log
 duoren2/Saved/Logs/duoren1.log
 *.ini
 *.log
+duoren2/Saved/Temp/Win64/Engine/Plugins/Online/OnlineSubsystem/Config/Localization/OnlineSubsystem.ini
+duoren2/Saved/Temp/Win64/Engine/Plugins/Online/OnlineSubsystemUtils/Config/Localization/OnlineSubsystemUtils.ini
+duoren2/Saved/Temp/Win64/Engine/Plugins/Runtime/Oculus/OculusVR/Config/BaseOculusVR.ini
+duoren2/Saved/Temp/Win64/Engine/Plugins/Runtime/PhysXVehicles/Config/BasePhysXVehicles.ini
+duoren2/Build/WindowsNoEditor/FileOpenOrder/EditorOpenOrder.log
+*.log
+**/logs
