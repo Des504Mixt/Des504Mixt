@@ -1,0 +1,31 @@
+RowName,Name,WhereToPlace,CultureType,HumanCost,MoneyCost,HumanOutPut,MoneyOutPut,CultureOutPut,SpecialEffect,EffectParameter1,EffectParameter2,WhenActivate,Description,Rarity
+A,A,Cultural/Residential,UK,2,3,4,4,4,IncreaseActiveOutput,1,2,PlayCard,Get 2 Renound immediately after building this card,Ordinary
+B,B,Cultural/Commercial/Residential,UK,4,1,3,3,4,IncreaseActiveOutput,2,3,ActivateSector,Get 1 Renound when the sector of this building actives,Ordinary
+C,C,Cultural/Commercial,UK,5,0,3,3,3,IncreaseActiveOutput,3,4,PlayCard,"Select one Chinese building in the this sector, which 'Renound/People gain' +2",Ordinary
+D,D,Cultural/Residential,UK,2,3,3,3,3,IncreaseActiveOutput,4,5,PlayCard,"For every Chinese building in this sector, this card 'Renound/People gain' is +1",Ordinary
+E,E,Cultural/Commercial/Residential,UK,3,2,1,1,1,IncreaseActiveOutput,5,6,PlayCard,"Choose a card in  hand and throw it away, and then directly obtain a card in the market (no need to pay renound)",Ordinary
+F,F,Cultural/Commercial,UK,0,5,2,2,2,IncreaseActiveOutput,6,7,PlayCard,Renound/People gain' of  every Chinese building in hand  +3,Ordinary
+G,G,OnlyCultural,UK,2,3,5,5,6,IncreaseActiveOutput,7,8,Hybrid,"If you have the Chinese G card(will be replaced by specific name), You can combine them to get more powerful buildings",Ordinary
+H,H,OnlyCultural,UK,4,1,5,5,6,IncreaseActiveOutput,8,9,Hybrid,"If you have the Chinese H card(will be replaced by specific name), You can combine them to get more powerful buildings",Ordinary
+I,I,Cultural/Commercial/Residential,UK,5,5,7,7,8,IncreaseActiveOutput,9,10,ActivateSector,Refresh all cards in the market,Rare
+J,J,Cultural/Residential,UK,7,3,6,6,6,IncreaseActiveOutput,10,11,PlayCard,Choose one card in the market and obtain that (no need to pay renound),Rare
+K,K,Cultural/Commercial/Residential,UK,4,6,7,7,8,IncreaseActiveOutput,11,12,PlayCard,Freeze the market (The cards in market will not be refreshed the next day),Rare
+L,L,Cultural/Commercial/Residential,UK,5,5,5,5,6,IncreaseActiveOutput,12,13,PlayCard,"If there is at least one Chinese card in the hand, the 'Build Pay' of all cards in hands -2",Rare
+M,M,OnlyCultural,UK,8,2,0,0,12,IncreaseActiveOutput,13,14,Hybrid,"If you have the Chinese M card(will be replaced by specific name), You can combine them to get more powerful buildings",Rare
+N,N,OnlyCultural,UK,4,6,0,0,12,IncreaseActiveOutput,14,15,Hybrid,"If you have the Chinese N card(will be replaced by specific name), You can combine them to get more powerful buildings",Rare
+O,O,Cultural/Commercial,UK,2,8,8,8,8,IncreaseActiveOutput,15,16,ActivateSector,"When there are more than 3 Chinese buildings in this sector, obtain a random card from card library",Rare
+P,P,Cultural/Residential,UK,1,9,7,7,7,IncreaseActiveOutput,16,17,PlayCard,Get 6 Renound immediately after building this card,Rare
+Q,Q,Cultural/Commercial,UK,5,5,6,6,6,IncreaseActiveOutput,17,18,ActivateSector,"If there is a Chinese building in the sector, 'Renound/People gain' of this building  +2",Rare
+R,R,OnlyCultural,UK,8,7,0,0,18,IncreaseActiveOutput,18,19,Hybrid,"If you have the Chinese R card(will be replaced by specific name), You can combine them to get more powerful buildings",Epic
+S,S,OnlyCultural,UK,6,9,0,0,18,IncreaseActiveOutput,19,20,Hybrid,"If you have the Chinese S card(will be replaced by specific name), You can combine them to get more powerful buildings",Epic
+T,T,Cultural/Commercial,UK,10,5,11,11,10,IncreaseActiveOutput,20,21,ActivateSector,"When there are more than 3 Chinese buildings in this sector,  'Renound/People gain' of this building +8",Epic
+U,U,Cultural/Commercial,UK,5,10,8,8,8,IncreaseActiveOutput,21,22,PlayCard,Equal the number of people and renound resources the player currently has (Taking the maximum),Epic
+V,V,Cultural/Commercial/Residential,UK,8,7,7,7,10,IncreaseActiveOutput,22,23,ActivateSector,Obtain a random card from card library,Epic
+W,W,Cultural/Commercial/Residential,UK,9,6,8,8,10,IncreaseActiveOutput,23,24,PlayCard,"Discard all British cards in hand. For each discarded card , 'Renound/People gain' of all Chinese building in this sector +2",Epic
+X,X,Cultural/Residential,UK,2,13,10,10,10,IncreaseActiveOutput,24,25,PlayCard,"Get 20 Renound this turn, but need to deduct 10 renound next turn",Epic
+Y,Y,Cultural/Residential,UK,9,6,10,10,10,IncreaseActiveOutput,25,26,ActivateSector,All cards in the market renound cost -2,Epic
+Z,Z,Cultural/Commercial/Residential,UK,7,8,9,9,10,IncreaseActiveOutput,26,27,PlayCard,Build the next Chinese building costs 0 people or buy the next British building costs 0 renound,Epic
+L1,L1,OnlyCultural,UK,11,9,0,0,20,IncreaseActiveOutput,27,28,PlayCard,"If there is a  hybrid buildings in the cultural sector,'cultural gain' of each building in cultural sector will +3",Legend
+L2,L2,OnlyCultural,UK,9,11,0,0,20,IncreaseActiveOutput,28,29,PlayCard,"Refresh the market, and obtain all of cards in the new market directly(no need to pay renound)",Legend
+L3,L3,Cultural/Commercial,UK,5,15,10,10,20,IncreaseActiveOutput,29,30,ActivateSector,All cards in the hand build people cost -5,Legend
+L4,L4,Cultural/Commercial/Residential,UK,15,5,4,4,20,IncreaseActiveOutput,30,31,PlayCard,"When there are more than 4 Chinese buildings in this sector,  'Renound/People gain' of all building in this sector +8",Legend
