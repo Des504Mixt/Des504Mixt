@@ -4,10 +4,6 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-		{
-			"Name": "duoren1",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
+	
 	]
 }

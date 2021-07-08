@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"E:\\UE4Project\\Des504Mixt\\duoren2\\Source\\duoren1\\duoren1.Build.cs",
-		"E:\\UE4Project\\Des504Mixt\\duoren2\\Source\\duoren1.Target.cs",
-		"E:\\UE4Project\\Des504Mixt\\duoren2\\Source\\duoren1Editor.Target.cs",
-		"E:\\UE4Project\\Des504Mixt\\duoren2\\Source\\duoren1Server.Target.cs"
+		"F:\\Des504Mixt\\duoren2\\Source\\duoren1\\duoren1.Build.cs",
+		"F:\\Des504Mixt\\duoren2\\Source\\duoren1.Target.cs",
+		"F:\\Des504Mixt\\duoren2\\Source\\duoren1Editor.Target.cs",
+		"F:\\Des504Mixt\\duoren2\\Source\\duoren1Server.Target.cs"
 	],
-	"EngineVersion": "4.26.1"
+	"EngineVersion": "4.26.0"
 }
